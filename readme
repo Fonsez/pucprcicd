@@ -1,0 +1,18 @@
+# PUCPR CI/CD
+
+Projeto criado para a atividade formativa da disciplina de DevOps.
+
+## Objetivo
+Configurar um fluxo simples de **CI (Continuous Integration)** e **CD (Continuous Delivery/Deployment)** utilizando **GitHub Actions**.
+
+## Estrutura dos workflows
+- `ci.yml`: executa a etapa de integração contínua
+- `deploy.yml`: executa a etapa de deploy simulado
+
+## Tecnologias
+- Git
+- GitHub
+- GitHub Actions
+
+## Resultado
+Os workflows foram executados com sucesso na branch `master`, validando o pipeline configurado no repositório.
