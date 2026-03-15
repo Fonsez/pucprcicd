@@ -16,3 +16,6 @@ Configurar um fluxo simples de **CI (Continuous Integration)** e **CD (Continuou
 
 ## Resultado
 Os workflows foram executados com sucesso na branch `master`, validando o pipeline configurado no repositório.
+
+## Evidência
+Execução realizada com sucesso por meio do GitHub Actions, contemplando os processos de CI e CD.
