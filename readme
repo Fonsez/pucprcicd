@@ -19,3 +19,5 @@ Os workflows foram executados com sucesso na branch `master`, validando o pipeli
 
 ## Evidência
 Execução realizada com sucesso por meio do GitHub Actions, contemplando os processos de CI e CD.
+
+[![CI](https://github.com/Fonsez/pucprcicd/actions/workflows/ci.yml/badge.svg)](https://github.com/Fonsez/pucprcicd/actions/workflows/ci.yml)
