@@ -6,16 +6,28 @@ Projeto criado para a atividade formativa da disciplina de DevOps.
 Configurar um fluxo simples de **CI (Continuous Integration)** e **CD (Continuous Delivery/Deployment)** utilizando **GitHub Actions**.
 
 ## Estrutura dos workflows
-- `ci.yml`: executa a etapa de integração contínua
+- `ci.yml`: instala as dependências e executa os testes unitários em `push` e `pull_request`
 - `deploy.yml`: executa a etapa de deploy simulado
 
 ## Tecnologias
 - Git
 - GitHub
 - GitHub Actions
+- Node.js
+
+## Testes unitários
+O projeto possui uma implementação simples em `src/calculadora.js` com testes automatizados em `test/calculadora.test.js`.
+
+Cobertura da etapa 2:
+- teste de soma
+- teste de subtração
+- teste de multiplicação
+- teste de divisão
+- teste de erro para divisão por zero
+- teste de média
 
 ## Resultado
-Os workflows foram executados com sucesso na branch `master`, validando o pipeline configurado no repositório.
+O workflow de CI está preparado para executar automaticamente os testes sempre que um novo commit for enviado para uma PR aberta contra a branch `master`.
 
 ## Evidência
 Execução realizada com sucesso por meio do GitHub Actions, contemplando os processos de CI e CD.

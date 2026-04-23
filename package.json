@@ -1,0 +1,12 @@
+{
+  "name": "pucprcicd",
+  "version": "1.0.0",
+  "description": "Projeto base para atividade de CI/CD com testes unitarios no GitHub Actions.",
+  "main": "src/calculadora.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
