@@ -30,6 +30,6 @@ Cobertura da etapa 2:
 O workflow de CI está preparado para executar automaticamente os testes sempre que um novo commit for enviado para uma PR aberta contra a branch `master`.
 
 ## Evidência
-Execução realizada com sucesso por meio do GitHub Actions, contemplando os processos de CI e CD.
+Execução realizada com sucesso por meio do GitHub Actions, contemplando os processos de CI e CD..
 
 [![CI](https://github.com/Fonsez/pucprcicd/actions/workflows/ci.yml/badge.svg)](https://github.com/Fonsez/pucprcicd/actions/workflows/ci.yml)
